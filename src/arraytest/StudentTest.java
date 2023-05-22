@@ -11,6 +11,7 @@ package arraytest;
 public class StudentTest {
     private String sid;
     private String name;
+    private String address;
 
     public StudentTest(String sid, String name) {
         this.sid = sid;
@@ -31,6 +32,14 @@ public class StudentTest {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
     
     
